@@ -9,40 +9,85 @@
       href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
   <body>
     <header class="header">
-      <nav>
-        <ul class="header__list">
-          <li>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#">About</a>
-          </li>
-          <li>
-            <a href="#">Portfolio</a>
-          </li>
-          <li>
-            <a href="#">Services</a>
-          </li>
-          <li>
-            <a href="#">Resume</a>
-          </li>
-          <li>
-            <a href="#">Client</a>
-          </li>
-          <li>
-            <a href="#">Blog</a>
-          </li>
-          <li>
-            <a href="#">Contact</a>
-          </li>
-        </ul>
-        <a href="files/CV.pdf" download class="btn">Download CV</a>
-      </nav>
+      <div class="icon-group">
+        <a href="#">
+          <img src="/images/icon/linkid.svg" alt="" />
+        </a>
+        <a href="#">
+          <img src="/images/icon/inst.svg" alt="" />
+        </a>
+        <a href="#">
+          <img src="/images/icon/be.svg" alt="" />
+        </a>
+      </div>
+      <div class="container">
+        <nav>
+          <ul class="header__list">
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Portfolio</a>
+            </li>
+            <li>
+              <a href="#">Services</a>
+            </li>
+            <li>
+              <a href="#">Resume</a>
+            </li>
+            <li>
+              <a href="#">Client</a>
+            </li>
+            <li>
+              <a href="#">Blog</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+          <a href="files/CV.pdf" download class="btn">Download CV</a>
+        </nav>
+        <section class="header__content">
+          <div class="row">
+            <div class="header__content-left">
+              <img src="./images/Ellipse1.svg" alt="ellipse" />
+              <h3>Welcome My Portfolio</h3>
+              <h1>Hello, i‘m Johan Deo <span>Professional</span> Designer.</h1>
+              <p>
+                Conveniently customize proactive web services for leveraged
+                without continualliery aggregate fricctionle ou wellies richard.
+              </p>
+              <div class="header__btn-group">
+                <button class="btn-other">Hire Me</button>
+                <button class="btn-other">Download CV</button>
+              </div>
+            </div>
+            <div class="header__content-right">
+              <img class="img-big" src="./images/Ellipse2-big.svg" alt="" />
+              <!-- group  -->
+              <img class="img-other" src="./images/icon/Figma.svg" alt="" />
+              <img class="img-other" src="./images/icon/XD.svg" alt="" />
+              <img class="img-other" src="./images/icon/Sketch.svg" alt="" />
+              <img class="img-other" src="./images/icon/Sketch(1).svg" alt="" />
+            </div>
+          </div>
+        </section>
+      </div>
     </header>
+    <main></main>
   </body>
 </html>
