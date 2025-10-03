@@ -77,6 +77,7 @@ a {
   width: 23px;
 }
 .header nav {
+  position: relative;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -210,4 +211,12 @@ nav .btn:hover {
 .header__content-right img:nth-child(4) {
   right: -50px;
   bottom: 30px;
+}
+.header__content-right img:nth-child(5) {
+  right: -20px;
+  top: 0;
+}
+
+.hamburger {
+  display: none;
 }

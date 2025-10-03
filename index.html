@@ -16,7 +16,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="media.css" />
+    <title>Resume Designer</title>
   </head>
   <body>
     <header class="header">
@@ -33,7 +34,12 @@
       </div>
       <div class="container">
         <nav>
-          <ul class="header__list">
+          <div class="hamburger" id="hamburgerBtn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <ul class="header__list" id="navMenu">
             <li>
               <a href="#">Home</a>
             </li>
@@ -89,5 +95,6 @@
       </div>
     </header>
     <main></main>
+    <script src="/js/index.js"></script>
   </body>
 </html>
