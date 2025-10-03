@@ -1,0 +1,82 @@
+:root {
+  --primary: #1f2235;
+  --secondary: #24263B;
+  --text-color: #ffff;
+  --tertiary: #fe461c;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+html {
+  font-size: 16px;
+}
+body {
+  width: 1920px;
+  font-family: 'Outfit', sans-serif;
+  color: var(--text-color);
+}
+.container {
+  width: 1300px;
+  margin: 0 10px;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+/* styles  */
+/* header start  */
+
+.header {
+  background-color: var(--primary);
+  
+}
+.header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-top: 22px;
+}
+.header__list {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-weight: 700;
+  line-height: 15px;
+  margin-right: 30px;
+}
+
+nav .btn {
+  padding: 17px 15px;
+  background-color: var(--tertiary);
+  border-radius: 4px;
+  transition: color 1s linear;
+  border: none;
+  color: var(--text-color);
+  font-size: 16;
+  font-weight: bold;
+  cursor: pointer;
+  line-height: 15px;
+}
+nav .btn:hover {
+  background-color: #f26f52;
+}
+.header__list li:hover {
+  color: var(--tertiary);
+}
