@@ -604,3 +604,65 @@ a {
   line-height: 26px;
 }
 /* testimonial end  */
+/* blog start  */
+
+.blog {
+  padding: 120px 0;
+  background-color: var(--primary);
+}
+.blog__container {
+  display: flex;
+  gap: 24px;
+}
+.blog__item {
+  max-width: 424px;
+  cursor: pointer;
+  
+}
+.blog__item:hover img{
+  transform: scale(0.90);
+}
+.blog__item img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 26px;
+  transition: all 0.2s linear;
+}
+.item__content-top {
+  margin-bottom: 24px;
+  display: flex;
+  gap: 18px;
+}
+.top-item {
+  display: flex;
+  gap: 10px;
+}
+.top-item span {
+  display: inline-block;
+}
+/* .top-item img {
+  width: 16px;
+  height: 20px;
+} */
+.top-item div {
+  width: 20px;
+  height: 22px;
+}
+.top-item div img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.item__content-bottom h3 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+.item__content-bottom p {
+  max-width: 360px;
+  font-weight: 300;
+  line-height: 24px;
+}
+/* blog end  */

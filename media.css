@@ -91,6 +91,14 @@
   .item-bottom p {
     max-width: none;
   }
+  .blog__container {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .blog__item {
+    width: 100%;
+  }
 }
 @media (max-width: 685px) {
   .header__content-right.img-other {
@@ -261,5 +269,8 @@
   }
   .testimonial__comments-item {
     padding: 30px 25px 29px 21px;
+  }
+  item__content-bottom h3 {
+    font-size: 20px;
   }
 }
