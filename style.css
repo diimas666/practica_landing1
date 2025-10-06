@@ -479,7 +479,7 @@ a {
   padding: 120px 0;
   background-color: var(--primary);
 }
-.resume__left{
+.resume__left {
   width: 100%;
 }
 .resume .row {
@@ -523,7 +523,7 @@ a {
 .progress {
   position: relative;
   height: 18px;
-  background-color: var(--text-color); 
+  background-color: var(--text-color);
   border-radius: 10px;
 }
 
@@ -532,7 +532,7 @@ a {
   top: 0;
   left: 0;
   height: 100%;
-  background-color: var(--tertiary); 
+  background-color: var(--tertiary);
   border-radius: 10px;
 }
 .w90 {
@@ -548,3 +548,59 @@ a {
   width: 60%;
 }
 /* resume end  */
+/* testimonial start  */
+.testimonial {
+  background-color: var(--secondary);
+  padding: 120px 0 200px 0;
+}
+.testimonial__comments-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.testimonial__comments-item {
+  padding: 41px 42px 29px 42px;
+  background-color: var(--primary);
+  position: relative;
+}
+.testimonial__comments-item img:nth-child(1) {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: -32px;
+  bottom: -50px;
+}
+.testimonial__comments-item img:nth-of-type(2) {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: -2px;
+  bottom: -103px;
+}
+.item-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.item-top__content h3 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  margin-bottom: 15px;
+}
+.item-top__content p {
+  font-weight: 300;
+  line-height: 24px;
+  margin-bottom: 14px;
+}
+.item-bottom {
+  margin-top: 15px;
+}
+.item-bottom p {
+  max-width: 340px;
+  font-weight: 400;
+  line-height: 26px;
+}
+/* testimonial end  */

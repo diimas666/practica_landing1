@@ -83,7 +83,15 @@
     gap: 70px;
   }
 }
-
+@media (max-width: 768px) {
+  .testimonial__comments-container {
+    flex-direction: column;
+    gap: 130px;
+  }
+  .item-bottom p {
+    max-width: none;
+  }
+}
 @media (max-width: 685px) {
   .header__content-right.img-other {
     display: none;
@@ -224,7 +232,7 @@
     overflow-x: auto;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 321px) {
   .header__content-left h1 {
     font-size: 27px;
   }
@@ -250,5 +258,8 @@
   }
   .title-h3 {
     font-size: 22px;
+  }
+  .testimonial__comments-item {
+    padding: 30px 25px 29px 21px;
   }
 }
