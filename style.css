@@ -127,8 +127,8 @@ a {
   min-height: 100%;
 }
 .header__content-left {
-  max-width: 680px;
-
+  /* max-width: 680px; */
+  max-width: 100%;
   position: relative;
 }
 .header__content-left img {
@@ -245,23 +245,14 @@ a {
   line-height: 48px;
   margin-bottom: 15px;
 }
+
 .about__right p {
   font-weight: 300;
   max-width: 523px;
   line-height: 26px;
   margin-bottom: 20px;
 }
-/* .about__info {
-  display: flex;
-  justify-content: space-between;
-  gap: 54px;
-  margin-bottom: 38px;
-}
-.about__info-list li span:nth-child(1) {
-  display: inline-block;
-  max-width: 87px;
-  
-} */
+
 .about__info {
   display: flex;
   justify-content: space-between;
