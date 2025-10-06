@@ -78,6 +78,10 @@
   .portfolio__item {
     min-height: 250px;
   }
+  .resume .row {
+    align-items: center;
+    gap: 70px;
+  }
 }
 
 @media (max-width: 685px) {
@@ -145,7 +149,11 @@
     display: none;
   }
 }
-
+@media (max-width: 591px) {
+  .choose-us__item {
+    width: 100%;
+  }
+}
 @media (max-width: 534px) {
   .header__content-right .img-other {
     display: none;
@@ -186,6 +194,12 @@
   .portfolio {
     padding: 90px 0;
   }
+  .resume__right {
+    max-width: 100%;
+  }
+  .resume__right img {
+    width: 100%;
+  }
 }
 
 @media (max-width: 434px) {
@@ -205,6 +219,9 @@
   }
   .title-h3 {
     font-size: 29px;
+  }
+  .skill__btn-group {
+    overflow-x: auto;
   }
 }
 @media (max-width: 320px) {
