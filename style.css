@@ -22,6 +22,7 @@ p {
 }
 html {
   font-size: 16px;
+  scroll-behavior: smooth;
 }
 body {
   width: 100%;
@@ -737,3 +738,118 @@ a {
   background-color: var(--btn-hover);
 }
 /* newsletter end  */
+
+/* contact start  */
+
+.contact {
+  background-color: var(--primary);
+  padding: 120px 0;
+}
+.contact .row {
+  flex-direction: column;
+  gap: 80px;
+}
+.contact__top {
+  display: flex;
+  gap: 100px;
+  width: 100%;
+}
+.contact__top-left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-item {
+  display: flex;
+  align-items: center;
+  gap: 19px;
+  background-color: var(--secondary);
+  padding: 18px 30px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+}
+.form-item__icon {
+  width: 70px;
+  height: 70px;
+  box-shadow: 0px 0px 24px 0px rgba(15, 16, 24, 0.42);
+  background: rgba(36, 38, 59, 1);
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-item__icon img {
+  width: 26px;
+  height: 26px;
+}
+.form-item__content h4 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.form-item__content span {
+  display: inline-block;
+  max-width: 224px;
+}
+.contact__top-right {
+  width: 50%;
+}
+.contact__top-right form {
+  width: 100%;
+}
+.contact__top-right h2 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  margin-bottom: 28px;
+}
+.input__container {
+  display: flex;
+  gap: 30px;
+}
+.input__container {
+  margin-bottom: 18px;
+}
+.input__container input,
+textarea {
+  background-color: var(--secondary);
+  padding: 16px 29px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  width: 100%;
+}
+textarea {
+  margin-bottom: 40px;
+  resize: none;
+  width: 100%;
+}
+.input__container input::placeholder {
+  color: rgba(112, 113, 123, 1);
+  font-family: Public Sans;
+  font-weight: 300;
+  line-height: 100%;
+}
+.contact__bottom {
+  width: 100%;
+  height: 550px;
+}
+.contact__bottom iframe {
+  width: 100%;
+  min-height: 100%;
+}
+/* contact end  */
+
+/* footer start    */
+.footer {
+  padding: 35px 0;
+  background-color: var(--secondary);
+  min-height: 90px;
+  text-align: center;
+}
+.footer h3 {
+  font-family: Outfit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 100%;
+}

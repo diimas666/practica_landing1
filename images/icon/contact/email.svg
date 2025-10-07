@@ -1,0 +1,9 @@
+<svg viewBox="0 0 26 18.2812" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26.000000" height="18.281250" fill="none" customFrame="#000000">
+	<defs>
+		<image id="image_1" width="26.000000" height="19.000000" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAATCAYAAACORR0GAAAABHNCSVQICAgIfAhkiAAAASxJREFUOI211L1Kw1AYxvGnIoj4cQ21m7Z4P07WG9ChqLS2FicvwbXoVBQUJ/FmareWLs4O/l3eQw+HnPTYJM+ScN7k+ZETEkkScEJ1OZUh53bsVoB0rLstWxjaQqdE5NI6hwDyBg67KgG59pEQ8rGbAkg/RLIgH1vnnXWzkBjkY71/IL0Ykgf52CABydyuVMjH+jnXDFYhKdBYFrKfzCHbwHhdaGQlDa/w1pu7p70Aju08isWgEbADHABfQXEb+62w3K4p0LC151ToA6gBLWARzBy2BdwFsynQsvnLKugpB3H5BX4is4Xduws8xqBXYA+oA5NIUUom1lEDPkPo3QZHwLwA4mNN63xz0AOwARwCsxIQl7l17gP37hspul2xzIC6JG1qmTNVk29J+gO4WJKWoZj0EwAAAABJRU5ErkJggg==" />
+		<pattern id="pattern_1" width="1.000000" height="1.000000" image-fill-type="fill" patternContentUnits="objectBoundingBox">
+			<use transform="matrix(0.0384615,0,0,0.0547009,0,-0.0196581)" xlink:href="#image_1" />
+		</pattern>
+	</defs>
+	<rect id="email 2" width="26.000000" height="18.281250" x="0.000000" y="0.000000" fill="url(#pattern_1)" />
+</svg>

@@ -27,10 +27,19 @@
   .newsletter__left h2 {
     font-size: 44px;
   }
+  .contact__top {
+    gap: 30px;
+  }
 }
 @media (max-width: 993px) {
   .header__content-left h1 {
     font-size: 40px;
+  }
+  .contact__top {
+    flex-direction: column;
+  }
+  .contact__top-right form {
+    width: 100%;
   }
 }
 @media (max-width: 982px) {
@@ -111,6 +120,14 @@
   }
   .blog__item {
     width: 100%;
+  }
+  .contact__top-right {
+    width: 100%;
+  }
+
+  .input__container {
+    flex-direction: column;
+    gap: 5;
   }
 }
 @media (max-width: 685px) {
@@ -288,6 +305,9 @@
   .skill__btn-group {
     overflow-x: auto;
   }
+  .form-item__content h4 {
+    font-size: 20px;
+  }
 }
 @media (max-width: 321px) {
   .header__content-left h1 {
@@ -324,5 +344,13 @@
   }
   .newsletter {
     padding: 80px 0;
+  }
+  .contact {
+    padding: 80px 0;
+  }
+  .form-item {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
   }
 }

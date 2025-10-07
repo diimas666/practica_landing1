@@ -13,4 +13,11 @@ document.addEventListener('DOMContentLoaded', () => {
       navMenu.classList.remove('active');
     }
   });
+
+  navMenu.querySelectorAll('a').forEach((link) => {
+    link.addEventListener('click', () => {
+      hamburger.classList.remove('active');
+      navMenu.classList.remove('active');
+    });
+  });
 });

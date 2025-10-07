@@ -20,7 +20,7 @@
     <title>Resume Designer</title>
   </head>
   <body>
-    <header class="header">
+    <header class="header" id="home">
       <div class="icon-group">
         <a href="#">
           <img src="/images/icon/linkid.svg" alt="" />
@@ -40,30 +40,14 @@
             <span></span>
           </div>
           <ul class="header__list" id="navMenu">
-            <li>
-              <a href="#">Home</a>
-            </li>
-            <li>
-              <a href="#">About</a>
-            </li>
-            <li>
-              <a href="#">Portfolio</a>
-            </li>
-            <li>
-              <a href="#">Services</a>
-            </li>
-            <li>
-              <a href="#">Resume</a>
-            </li>
-            <li>
-              <a href="#">Client</a>
-            </li>
-            <li>
-              <a href="#">Blog</a>
-            </li>
-            <li>
-              <a href="#">Contact</a>
-            </li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#choose-us">Services</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#testimonial">Client</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
           <a href="files/CV.pdf" download class="btn">Download CV</a>
         </nav>
@@ -95,7 +79,7 @@
       </div>
     </header>
     <main>
-      <section class="about">
+      <section class="about" id="about">
         <div class="container">
           <h2 class="title-h2">About me</h2>
           <div class="row">
@@ -156,7 +140,7 @@
         </div>
       </section>
 
-      <section class="portfolio">
+      <section class="portfolio" id="portfolio">
         <div class="container">
           <h2 class="title-h2">Portfolio</h2>
           <h3 class="title-h3">Some Of My Creative Work</h3>
@@ -207,7 +191,7 @@
           </div>
         </div>
       </section>
-      <section class="choose-us">
+      <section class="choose-us" id="choose-us">
         <div class="container">
           <h2 class="title-h2">Why Choose Us</h2>
           <h3 class="title-h3">Our Work Services</h3>
@@ -259,7 +243,7 @@
           </div>
         </div>
       </section>
-      <section class="resume">
+      <section class="resume" id="resume">
         <div class="container">
           <h2 class="title-h2">Resume</h2>
           <h3 class="title-h3">Skill & Experience</h3>
@@ -318,7 +302,7 @@
           </div>
         </div>
       </section>
-      <section class="testimonial">
+      <section class="testimonial" id="testimonial">
         <div class="container">
           <h2 class="title-h2">Testimonial</h2>
           <h3 class="title-h3">What Our Client Say About us.</h3>
@@ -383,7 +367,7 @@
           </div>
         </div>
       </section>
-      <section class="blog">
+      <section class="blog" id="blog">
         <div class="container">
           <h2 class="title-h2">Blog post</h2>
           <h3 class="title-h3">Our Latest Blog</h3>
@@ -487,7 +471,7 @@
           </div>
         </div>
       </section>
-      <section class="newsletter">
+      <section class="newsletter" id="newsletter">
         <div class="container">
           <div class="row">
             <div class="newsletter__left">
@@ -504,8 +488,79 @@
           </div>
         </div>
       </section>
+      <section class="contact" id="contact">
+        <div class="container">
+          <h2 class="title-h2">Contact</h2>
+          <h3 class="title-h3">Get in Touch</h3>
+          <div class="row">
+            <div class="contact__top">
+              <div class="contact__top-left">
+                <div class="form-item">
+                  <div class="form-item__icon">
+                    <img src="./images/icon/contact/icon1.svg" alt="" />
+                  </div>
+                  <a href="tel:+8801284593" class="form-item__content">
+                    <h4>Phone number</h4>
+                    <span>+8801284593, 01239-420007 02-9611936</span>
+                  </a>
+                </div>
+                <div class="form-item">
+                  <div class="form-item__icon">
+                    <img src="./images/icon/contact/email.svg" alt="" />
+                  </div>
+                  <a
+                    href="mailto:sahjahansagor2020@.com"
+                    class="form-item__content"
+                  >
+                    <h4>Email Address</h4>
+                    <span>sahjahansagor2020@.com sahjahansagor3020@.com</span>
+                  </a>
+                </div>
+                <div class="form-item">
+                  <div class="form-item__icon">
+                    <img src="./images/icon/contact/address.svg" alt="" />
+                  </div>
+                  <a
+                    href="https://www.google.com/maps/search/?api=1&query=Suite+1307,+Tropical+Center+218+New+Elephant+Road"
+                    class="form-item__content"
+                  >
+                    <h4>Office address</h4>
+                    <span
+                      >Suite 1307, Tropical Center 218 New Elephant Road</span
+                    >
+                  </a>
+                </div>
+              </div>
+              <div class="contact__top-right">
+                <h2>Send Message</h2>
+                <form>
+                  <div class="input__container">
+                    <input type="text" placeholder="Your Name" required />
+                    <input type="email" placeholder="Your Email" required />
+                  </div>
+                  <textarea rows="7" placeholder="Your Message"></textarea>
+                  <button class="btn" type="submit">Submit message</button>
+                </form>
+              </div>
+            </div>
+            <div class="contact__bottom">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.123456789!2d90.3892!3d23.7394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDQ0JzIxLjQiTiA5MMKwMjMnMjIuMSJF!5e0!3m2!1sru!2sru!4v1234567890"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="footer">
+        <div class="container">
+          <h3>All Right Reserved. Designed and Developed by LabArtisan</h3>
+        </div>
+      </section>
     </main>
-    <footer></footer>
     <script src="/js/index.js"></script>
   </body>
 </html>
