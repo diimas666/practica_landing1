@@ -617,10 +617,9 @@ a {
 .blog__item {
   max-width: 424px;
   cursor: pointer;
-  
 }
-.blog__item:hover img{
-  transform: scale(0.90);
+.blog__item:hover img {
+  transform: scale(0.9);
 }
 .blog__item img {
   width: 100%;
@@ -666,3 +665,75 @@ a {
   line-height: 24px;
 }
 /* blog end  */
+/* newsletter start  */
+
+.newsletter {
+  background-color: var(--secondary);
+  padding: 120px 0;
+}
+.newsletter .row {
+  background-color: var(--primary);
+  border-radius: 8px;
+  padding: 130px 50px 129px 80px;
+  gap: 161px;
+  justify-content: space-between;
+}
+.newsletter__left {
+  width: 50%;
+}
+.newsletter__left h3 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 100%;
+  margin-bottom: 9px;
+}
+.newsletter__left h2 {
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 55px;
+  letter-spacing: 0%;
+  margin-bottom: 12px;
+}
+.newsletter__left p {
+  font-family: Public Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 100%;
+}
+.newsletter__right {
+  width: 50%;
+}
+.newsletter__right form {
+  position: relative;
+  max-width: 550px;
+}
+.newsletter__right form input {
+  padding: 21px 20px;
+  background-color: var(--text-color);
+  border-radius: 80px;
+  width: 100%;
+}
+.newsletter__right form input::placeholder {
+  color: rgba(157, 161, 180, 1);
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.newsletter__right form button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-radius: 80px;
+  background-color: var(--tertiary);
+  padding: 23px 53px;
+  color: var(--text-color);
+  font-weight: 700;
+  line-height: 15px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.4s linear;
+}
+.newsletter__right form button:hover {
+  background-color: var(--btn-hover);
+}
+/* newsletter end  */
